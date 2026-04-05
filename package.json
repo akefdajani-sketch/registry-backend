@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "migrate": "node scripts/migrate.js"
+    "migrate": "node scripts/migrate.js",
+    "seed:demo": "node scripts/seedDemoData.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.882.0",
